@@ -4,6 +4,7 @@
 
 from bottle import route, run, template, request
 from beaker.middleware import SessionMiddleware
+from sys import argv
 import beaker
 import bottle
 
